@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.footer,
+.header {
+    height: 48px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 48px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav ul {
+    display: flex;
+    flex: 1;
+    font-size: 18px;
+}
+
+.nav a {
+    color: #E5E7EB;
+    margin-left: 16px;
+}
+
+.img-logo {
+    height: 24px;
+    width: auto;
+    /* line-height: 48px; */
+}
+
+.content .main-text {
+    height: 350px;
+    display: flex;
+    background-color: #1F2937;
+    padding: 0 120px;
+    flex: 1;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.content .text {
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    color: #F9FAF8;
+    margin-right: 64px;
+    font-weight: 800;
+}
+
+.content img {
+    height: 100%;
+}
+
+.main-text button {
+    width: 110px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 4px 0;
+    border: 0;
+}
+
+.info {
+    min-height: 350px;
+    padding: 0 120px;
+
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    text-align: center;
+    margin: 48px 0;
+}
+
+.info-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.info-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px
+}
+
+.info-item {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.quote {
+    min-height: 350px;
+    background-color: #E5E7EB;
+    padding: 80px 280px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: justify;
+}
+
+.quote-author {
+    font-weight: 900;
+    margin-top: 50px;
+    text-align: end;
+}
+
+.contact {
+    margin: 80px 120px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 60px 160px;
+    border-radius: 10px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-text h3 {
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.contact-btn {
+    width: 160px;
+    height: 48px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
